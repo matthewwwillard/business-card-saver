@@ -1,4 +1,4 @@
-#Card Saver
+# Card Saver
 
 This is a quick and semi dirty contact manager! 
 It's intended purpose is to have all contacts/business cards 
@@ -6,9 +6,12 @@ saved into one place!
 
 I made this for my company Fuzzi Studio for our trip to GDC!
 
-##How to Run It
+[dashboard]: https://s3.amazonaws.com/fuzzi-public-images/Screen+Shot+2019-03-22+at+9.34.25+AM.png "dashboard"
+[contact-data]: https://s3.amazonaws.com/fuzzi-public-images/Screen+Shot+2019-03-22+at+9.34.38+AM.png "contact-data"
 
-####Set Up:
+## How to Run It
+
+#### Set Up:
 
 * Add a `.env` file to the api folder. You can simply rename `.env-sample` to `.env`
 * In the dashboard folder under `src/enviornments` edit both files to reflect your company name!
@@ -32,13 +35,13 @@ I made this for my company Fuzzi Studio for our trip to GDC!
 	}
 }
 ```
-####Requirements:
+#### Requirements:
 
 * Docker
 
 (Not really required, but suggested! You can serve these files from anywhere!)
 
-####Running With Docker:
+#### Running With Docker:
 
 * Clone the Repo
 * In a terminal, navigate to API and Dashboard and run `docker-compose up`!
@@ -46,7 +49,7 @@ I made this for my company Fuzzi Studio for our trip to GDC!
 
 * **NOTE:** If you want to build upon the project, you will need to install `ImageMagick`. This is used to downscale images before they save!
 
-#Features to Add Someday...
+# Features to Add Someday...
 
 * Paging to contact list
 * Google Vision and some Regex to parse business card data auto magically!
