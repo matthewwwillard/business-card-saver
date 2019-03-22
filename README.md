@@ -6,8 +6,8 @@ saved into one place!
 
 I made this for my company Fuzzi Studio for our trip to GDC!
 
-[!alt-text][dashboard]
-[!alt-text][contact-data]
+![alt-text][dashboard]
+![alt-text][contact-data]
 
 [dashboard]: https://s3.amazonaws.com/fuzzi-public-images/Screen+Shot+2019-03-22+at+9.34.25+AM.png "dashboard"
 [contact-data]: https://s3.amazonaws.com/fuzzi-public-images/Screen+Shot+2019-03-22+at+9.34.38+AM.png "contact-data"
